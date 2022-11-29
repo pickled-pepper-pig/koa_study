@@ -1,5 +1,5 @@
 module.exports = (err, ctx) => {
-  console.log(err.code)
+  console.log('1231231232', err.code)
   let status = 500;
 
   switch (err.code) {

@@ -27,6 +27,6 @@ const User = seq.define('zeq_user', {
 })
 
 // 强制同步数据库
-User.sync({ force: true })
+// User.sync({ force: true })
 
 module.exports = User

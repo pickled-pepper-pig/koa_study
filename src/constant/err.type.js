@@ -33,6 +33,12 @@ module.exports = {
     result: '',
   },
 
+  changePasswordFailed: {
+    code: '10007',
+    message: '修改密码失败',
+    result: '',
+  },
+
   tokenExpiredError: {
     code: '10101',
     message: 'token已过期',
